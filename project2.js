@@ -13,7 +13,7 @@ $(document).ready(function(){
 			return '#' + Math.random().toString(16).slice(2,8);
 		};
 
-	$('button').click(function(){
+	$('#button').click(function(){
 		$('body').css('background', randomColor());
 	});
 });
