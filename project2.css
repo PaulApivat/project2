@@ -5,3 +5,12 @@ div {
 	background-image: #000000;
 	background-color: #000000;
 }
+
+#button {
+	background-color: red;
+	font-weight: bold;
+}
+
+body {
+	background: #fff18e;
+}
