@@ -11,21 +11,25 @@
 
 			<!--  JQuery UI library api required for special JQuery effects like 'draggable' ONLY works on the web. A local install, like regular JQuery is needed-->
 					<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+			<!--  JQuery UI library installed locally in the same folder "jquery-ui.min.js" -->
+					<script type="text/javascript" src="jquery-ui.min.js"></script>
 					<link rel="stylesheet" type="text/css" href="project2.css">
 		</head>
 
 		<body>
 
 			<h1>JQuery Effects</h1>
-			<p>Drag the figure anywhere on the page.</p>
+			<p>Double click the first box and see what happens.</p>
 
-			<div>
+			<div id="fade">
 			</div>
 			<br>
+			<p>Drag the second box anywhere on the page.</p>
 			<div id="drag">
 			</div>
 			<br>
-			<div id="button"> Click for Random Color
+			<div id="button_container"> 
+				<a id="button" href="javascript:void(0);"> Click for Random Color </a>
 			</div>
 
 

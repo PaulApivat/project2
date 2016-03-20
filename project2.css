@@ -6,6 +6,11 @@ div {
 	background-color: #000000;
 }
 
+#button_container {
+	text-align: center;
+	margin: 100px auto;
+}
+
 #button {
 	background-color: red;
 	font-weight: bold;
